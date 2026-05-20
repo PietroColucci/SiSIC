@@ -1,3 +1,6 @@
+# electro_thermal_model.py
+
+```python
 """
 Electro-thermal modeling of Joule-heated metallized SiSiC foams
 ---------------------------------------------------------------
@@ -225,7 +228,7 @@ ax.clabel(
 
 style_axes(
     ax,
-    xlabel=r"Porosity, $\varepsilon$",
+    xlabel=r"Porosity, $\\varepsilon$",
     ylabel=r"Ligament thickness, $t$ / mm",
     xlim=(0.70, 0.90),
     ylim=(0.10, 0.35),
@@ -334,3 +337,5 @@ print(f"- {FIG_DIR / 'Figure1_model_fit.png'}")
 print(f"- {FIG_DIR / 'Figure2_isotherms.png'}")
 print(f"- {FIG_DIR / 'Figure4_damage_probability.png'}")
 print(f"- {FIG_DIR / 'Figure5_time_to_probability.png'}")
+```
+
